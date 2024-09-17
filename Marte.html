@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marte</title>
+    <style>
+        /* Estilos para la navegación */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Estilos para el contenido principal */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.5;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../Tema2/Mercurio.html">Mercurio</a>
+        <a href="Marte.html">Marte</a>
+        <a href="./Subtema11/Lunas.html">Lunas de Marte</a>
+        <a href="Venus.html">Venus</a>
+        <a href="Saturno.html">Saturno</a>
+    </nav>
+
+    <h1>Visión General de Marte</h1>
+    <p>Es seco, rocoso y muy frío. El cuarto planeta desde el Sol, Marte, es uno de los dos vecinos planetarios más cercanos de la Tierra (Venus es el otro). Marte es uno de los planetas más fáciles de detectar en el cielo nocturno: parece un punto de luz rojo brillante. A pesar de ser inhóspitos para los humanos, los exploradores robóticos, como el rover Perseverance de la NASA, están sirviendo como pioneros para llevar a los humanos a la superficie del Planeta Rojo.</p>
+    <address>Fuente: <a href="https://science.nasa.gov/mars/">NASA</a></address>
+
+    <div style="display: flex; align-items: center;">
+      <model-viewer src="../Multimedia/Imagenes/24881_Mars_1_6792.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+
+        <table>
+            <tr>
+                <th>Característica</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Diámetro</td>
+                <td>6,792 km</td>
+            </tr>
+            <tr>
+                <td>Masa</td>
+                <td>6.4169 x 10<sup>23</sup> kg</td>
+            </tr>
+            <tr>
+                <td>Densidad</td>
+                <td>3.934 g/cm<sup>3</sup></td>
+            </tr>
+            <tr>
+                <td>Volumen</td>
+                <td>1.63116 x 10<sup>11</sup> km<sup>3</sup></td>
+            </tr>
+            <tr>
+                <td>Temperatura promedio</td>
+                <td>-62 grados Celsius</td>
+            </tr>
+        </table>
+    </div><br>
+
+    
+
+<h1 style="margin-bottom: 0;">Marte 2020: Perseverance Rover</h1>
+<div style="display: flex; align-items: center;">
+<p>El rover Mars 2020 Perseverance busca signos de vida microbiana antigua, para avanzar en la búsqueda de la NASA para explorar la habitabilidad pasada de Marte. El rover está recolectando muestras de núcleo de roca marciana y regolito (roca y suelo rotos), para su posible recolección por una futura misión que los llevaría a la Tierra para un estudio detallado.</p>
+<model-viewer src="../Multimedia/Imagenes/25042_Perseverance.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer >
+
+
+    </div>
+
+     <p><b>¿Dónde está Perseverance?</b>
+      El rover Perseverance de la NASA aterrizó en el cráter Jezero, un área con un antiguo delta, el 18 de febrero de 2021. Desplácese y desplácese por este mapa para ver la ubicación más reciente del rover y recorrer la trayectoria, mientras busca signos de vida antigua y recolecta muestras de roca y regolito de Marte (roca rota y polvo) para un posible regreso futuro a la Tierra.</p>
+
+      <div style="display: flex; align-items: center;">
+      <video controls width="600" height="500">
+        <source src="../Multimedia/Imagenes/47165_PIA25215.mp4" type="video/mp4">
+      </div>
+      <h3 style="margin-bottom: 0;">Sonidos de Marte</h3>
+      <audio controls>
+        <source src="../Multimedia/Imagenes/Marte au.wav" type="audio/wav">
+</body>
+</html>
